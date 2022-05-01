@@ -1,0 +1,108 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed';
+}
+
+body {
+  position: relative;
+  background-color: rgb(233, 193, 233);
+}
+
+/* Style navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, purple, red, orange);
+  padding: 20px 50px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+/* Target all anchor tags that are inside the nav tag */
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav > a {
+  font-family: 'Anton';
+}
+
+nav div a {
+  text-transform: uppercase;
+  margin-left: 50px;
+  padding: 8px;
+  border-radius: 4px;
+  transition: all 0.35s;
+}
+
+nav div a:hover {
+  color: purple;
+  background-color: orange;
+}
+
+/*  Style Header Section */
+header {
+  padding: 100px;
+}
+
+header > h1 {
+  margin-bottom: 20px;
+}
+
+header > .description {
+  margin-left: 15px;
+}
+
+/* Style Main Content Section */
+.main-content {
+  padding: 30px 25px;
+}
+
+.main-content .item-container {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.item-1 {
+  background-color: purple;
+}
+
+.item-2 {
+  background-color: red;
+}
+
+.item-3 {
+  background-color: yellow;
+}
+
+.item-4 {
+  background-color: orange;
+}
+
+.main-content > h1 {
+  text-align: center;
+}
+
+.main-content .item-container .content-item {
+  width: 250px;
+  height: 250px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+footer > p {
+  text-align: center;
+  color: gray;
+  margin-top: 8px;
+}
+/*
+  font-family: 'Anton', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+*/
